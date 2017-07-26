@@ -13,7 +13,7 @@ public class LoginController {
 	
 	@RequestMapping(value = {"/into"}, method = {RequestMethod.POST,RequestMethod.GET})
 	public void into(HttpServletRequest request, HttpServletResponse response) throws Exception{
-		response.getWriter().write("success");
+		response.getWriter().write("hello licc you must success");
 	}
 	
 	
